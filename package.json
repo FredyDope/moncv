@@ -3,14 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.1.1",
+    "devicons": "^1.8.0",
+    "font-awesome": "^4.7.0",
+    "material-ui": "^0.20.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4"
+    "react-responsive-masonry": "^2.0.0",
+    "react-scripts": "1.1.4",
+    "react-simple-line-icons": "^1.0.8"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint 'src/**/*.css'",
+    "lint:fix": "eslint --fix . && stylelint --fix 'src/**/*.css'"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "stylelint": "^9.3.0",
+    "stylelint-config-standard": "^18.2.0"
   }
 }
