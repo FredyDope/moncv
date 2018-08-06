@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
-          <span class="d-block d-lg-none">CV Frederic</span>
+          <span className="d-block d-lg-none">CV Frederic</span>
           <span className="d-none d-lg-block">
             <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={Moi} alt="Frederic"/>
           </span>
@@ -20,7 +20,7 @@ class Header extends React.Component {
               <a className="nav-link js-scroll-trigger" href="#about">Intro</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
+              <a className="nav-link js-scroll-trigger" href="#experience">Experiences</a>
             </li>
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#education">Education</a>
