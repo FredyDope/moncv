@@ -20,7 +20,7 @@ class Header extends React.Component {
               <a className="nav-link js-scroll-trigger" href="#about">Intro</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#experience">expérience</a>
+              <a className="nav-link js-scroll-trigger" href="#experience">expériences</a>
             </li>
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#education">éducation</a>
