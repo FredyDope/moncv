@@ -20,19 +20,19 @@ class Header extends React.Component {
               <a className="nav-link js-scroll-trigger" href="#about">Intro</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#experience">Experiences</a>
+              <a className="nav-link js-scroll-trigger" href="#experience">expérience</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#education">Education</a>
+              <a className="nav-link js-scroll-trigger" href="#education">éducation</a>
             </li>
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#interests">Hobby</a>
+              <a className="nav-link js-scroll-trigger" href="#interests">Temps Libre</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#footer">Contact</a>
+              <a className="nav-link js-scroll-trigger" href="#footer">Sur le Web</a>
             </li>
           </ul>
         </div>
